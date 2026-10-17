@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# 数据与日志（本地运行产生的真实数据不入库）
+data/
+logs/
+*.db
+*.sqlite3
+*.csv
+*.log
+
+# 环境与密钥
+.env
+.env.*
+*.pem
+*.key
+
+# 编辑器
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
